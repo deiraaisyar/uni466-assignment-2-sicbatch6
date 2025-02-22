@@ -4,7 +4,7 @@
 Nama Kelompok: Warga Naget
 Kode Kelompok: UNI466
 
-Anngota Kelompok:
+Anggota Kelompok:
 - Deira Aisya Refani
 - Finanazwa Ayesha
 - Regina Joan Medea Jati Laksono
