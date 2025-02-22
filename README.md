@@ -1,1 +1,1 @@
-# uni466-assignment-2-sicbatch6
+# Warga Naget's Assignment 2 Samsung Innovation Campus Batch 2
