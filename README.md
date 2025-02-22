@@ -1,4 +1,6 @@
 # Warga Naget's Assignment 2 Samsung Innovation Campus Batch 2
+
+## General Information
 Nama Kelompok: Warga Naget
 Kode Kelompok: UNI466
 
