@@ -62,7 +62,7 @@ def get_data_temperature():
     
     try:
         start_date_timestamp = datetime.strptime(start_date, "%d-%m-%Y %H:%M:%S")
-        end_date_timestamp = datetime.strptime(start_date, "%d-%m-%Y %H:%M:%S")
+        end_date_timestamp = datetime.strptime(end_date, "%d-%m-%Y %H:%M:%S")
         temp_list = []
         for items in result:
             print("cheking...")
