@@ -1,10 +1,10 @@
 # Warga Naget's Assignment 2 Samsung Innovation Campus Batch 2
 
 ## General Information
-Nama Kelompok: Warga Naget
-Kode Kelompok: UNI466
+Group Name: Warga Naget
+Group Code: UNI466
 
-Anggota Kelompok:
+Group Members:
 - Deira Aisya Refani
 - Finanazwa Ayesha
 - Regina Joan Medea Jati Laksono
