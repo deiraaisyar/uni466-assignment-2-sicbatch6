@@ -41,10 +41,12 @@ def simpan_data_sensor():
         temperature = body['temperature']
         humidity = body['humidity']
         timestamp = body['timestamp']
+        switch = body['switch']
         data_final = {
             'temperature': temperature,
             'humidity': humidity,
-            'timestamp': timestamp
+            'timestamp': timestamp,
+            'switch': switch
         }
         
         id = store_data(data_final)
@@ -72,28 +74,6 @@ def get_data_temperature():
     
     except:
         pass
-    
-@app.route('/switch', methods=['POST', 'GET'])
-def switch_status():
-    if request.method == 'POST':
-        body = request.get_json()
-        status = body['status']  # "on" atau "off"
-        timestamp = datetime.now().strftime("%d-%m-%Y %H:%M:%S")
-
-        data_final = {
-            'status': status,
-            'timestamp': timestamp
-        }
-
-        my_collections.update_one({}, {"$set": data_final}, upsert=True)
-        return jsonify(message="Switch status updated", status=status)
-
-    elif request.method == 'GET':
-        result = my_collections.find_one({}, {'_id': 0, 'status': 1})
-        if result:
-            return jsonify(message="Success", status=result['status'])
-        else:
-            return jsonify(message="No data available", status="unknown")
         
 if __name__ == "__main__":
     app.run(debug=True, port=7000)
