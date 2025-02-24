@@ -41,4 +41,6 @@ Includes an on/off switch to control devices remotely.
 7. This project demonstrates an end-to-end IoT solution integrating hardware (ESP32), backend (Flask API + MongoDB), and a cloud-based visualization platform (Ubidots).
 
 Ubidots Link: https://stem.ubidots.com/app/dashboards/67bbb7edd878668cd9aa970f
+\\
+
 Video Demonstration Link: 
