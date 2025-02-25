@@ -30,7 +30,7 @@ Fetches switch status from the API to control connected devices.
 - Ubidots Dashboard Visualization:
 
 Displays real-time and historical data for temperature and humidity.
-Includes an on/off switch to control devices remotely.
+Includes an on/off switch and LED to control devices remotely.
 
 ### How It Works
 1. The ESP32 device reads temperature and humidity values from sensors.
