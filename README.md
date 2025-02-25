@@ -44,4 +44,4 @@ Includes an on/off switch and LED to control devices remotely.
 Ubidots Link: https://stem.ubidots.com/app/dashboards/public/dashboard/3ro5e4le8r1Gte6x7wDmBTD-aEs87tc7eAD_vWBaZt8?navbar=true&contextbar=true&datePicker=true&devicePicker=true&displayTitle=true
 
 
-Video Demonstration Link: 
+Video Demonstration Link: https://drive.google.com/drive/folders/1tI0NdrT_Ai6ppOxnRyY650jfKfuoJLVP
