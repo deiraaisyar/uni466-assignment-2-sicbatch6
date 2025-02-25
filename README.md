@@ -42,7 +42,6 @@ Includes an on/off switch to control devices remotely.
 6. The ESP32 periodically checks the switch status and performs actions accordingly.
 7. This project demonstrates an end-to-end IoT solution integrating hardware (ESP32), backend (Flask API + MongoDB), and a cloud-based visualization platform (Ubidots).
 
-Ubidots Link: https://stem.ubidots.com/app/dashboards/67bbb7edd878668cd9aa970f
-\\
+Ubidots Link: https://stem.ubidots.com/app/dashboards/public/dashboard/3ro5e4le8r1Gte6x7wDmBTD-aEs87tc7eAD_vWBaZt8?navbar=true&contextbar=true&datePicker=true&devicePicker=true&displayTitle=true
 
 Video Demonstration Link: 
